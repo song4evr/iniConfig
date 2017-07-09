@@ -8,7 +8,7 @@ public class ConfigFile : MonoBehaviour
     private DirectoryInfo confDir;
     private string confPattern = "*.conf";
     public string confSubDir = "/../conf/";
-
+    //test
     private void Awake()
     {
         confDir = new DirectoryInfo(Application.dataPath + confSubDir);
